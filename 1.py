@@ -1,12 +1,10 @@
-for i in range (1,10):
-    for j in range (0,10):
-        for k in range (0,10):
-            a=str(i)
-            b=str(j)
-            c=str(k)
-            d=a+b+c
-            d=int(d)
-            if i*i*i+j*j*j+k*k*k == d:
-                print(d)
-#水仙花数
+
+def f(n):
+  n=(n+1)*2
+  return n
+for i in range(9):
+      f(i)
+print(f(1))
+
+
 
